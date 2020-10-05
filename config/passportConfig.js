@@ -48,7 +48,7 @@ passport.deserializeUser((id, done)=>{
 
 
 /* ----------------------------------------
-.          Serialize and Deserialize
+.                    GOOGLE
 ---------------------------------------- */
 passport.use( new GoogleStrategy(
   {
@@ -107,7 +107,7 @@ passport.use( new GoogleStrategy(
 
 
 /* ----------------------------------------
-.          Serialize and Deserialize
+.                 GITHUB
 ---------------------------------------- */
 passport.use(new GithubStrategy(
   {
